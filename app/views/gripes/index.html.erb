@@ -1,1 +1,9 @@
-<h1>yo</h1>
+<% @gripes.each do |gripe| %>
+  <div>
+    <h1><%= gripe.name %></h1><br />
+    <i><%= gripe.beef %></i><br />
+    <p><%= gripe.fix %></p><br />
+  </div>
+
+  <hr />
+<% end %>
