@@ -5,6 +5,7 @@ class GripesController < ApplicationController
   end
 
   def new
+    @gripe = Gripe.new
   end
-  
+
 end
