@@ -1,3 +1,4 @@
 Rails.application.routes.draw do
-  root 'gripes#index'  
+  root 'gripes#index'
+  resources :gripes  
 end
