@@ -1,0 +1,2 @@
+class GripesController < ApplicationController
+end
