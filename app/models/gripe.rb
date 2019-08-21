@@ -1,0 +1,2 @@
+class Gripe < ApplicationRecord
+end
